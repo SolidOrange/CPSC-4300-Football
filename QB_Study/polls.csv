@@ -1,0 +1,526 @@
+Year,Rank,School
+1997,1,Michigan
+1997,2,Nebraska
+1997,3,Florida State
+1997,4,Florida
+1997,5,UCLA
+1997,6,North Carolina
+1997,7,Tennessee
+1997,8,Kansas State
+1997,9,Washington State
+1997,10,Georgia
+1997,11,Auburn
+1997,12,Ohio State
+1997,13,LSU
+1997,14,Arizona State
+1997,15,Purdue
+1997,16,Penn State
+1997,17,Colorado State
+1997,18,Washington
+1997,19,Southern Mississippi
+1997,20,Texas A&M
+1997,21,Syracuse
+1997,22,Ole Miss
+1997,23,Missouri
+1997,24,Oklahoma State
+1997,25,Georgia Tech
+1998,1,Tennessee
+1998,2,Ohio State
+1998,3,Florida State
+1998,4,Arizona
+1998,5,Florida
+1998,6,Wisconsin
+1998,7,Tulane
+1998,8,UCLA
+1998,9,Georgia Tech
+1998,10,Kansas State
+1998,11,Texas A&M
+1998,12,Michigan
+1998,13,Air Force
+1998,14,Georgia
+1998,15,Texas
+1998,16,Arkansas
+1998,17,Penn State
+1998,18,Virginia
+1998,19,Nebraska
+1998,20,Miami (FL)
+1998,21,Missouri
+1998,22,Notre Dame
+1998,23,Virginia Tech
+1998,24,Purdue
+1998,25,Syracuse
+1999,1,Florida State
+1999,2,Virginia Tech
+1999,3,Nebraska
+1999,4,Wisconsin
+1999,5,Michigan
+1999,6,Kansas State
+1999,7,Michigan State
+1999,8,Alabama
+1999,9,Tennessee
+1999,10,Marshall
+1999,11,Penn State
+1999,12,Florida
+1999,13,Mississippi State
+1999,14,Southern Mississippi
+1999,15,Miami (FL)
+1999,16,Georgia
+1999,17,Arkansas
+1999,18,Minnesota
+1999,19,Oregon
+1999,20,Georgia Tech
+1999,21,Texas
+1999,22,Ole Miss
+1999,23,Texas A&M
+1999,24,Illinois
+1999,25,Purdue
+2000,1,Oklahoma
+2000,2,Miami (FL)
+2000,3,Washington
+2000,4,Oregon State
+2000,5,Florida State
+2000,6,Virginia Tech
+2000,7,Oregon
+2000,8,Nebraska
+2000,9,Kansas State
+2000,10,Florida
+2000,11,Michigan
+2000,12,Texas
+2000,13,Purdue
+2000,14,Colorado State
+2000,15,Notre Dame
+2000,16,Clemson
+2000,17,Georgia Tech
+2000,18,Auburn
+2000,19,South Carolina
+2000,20,Georgia
+2000,21,Texas Christian
+2000,22,LSU
+2000,23,Wisconsin
+2000,24,Mississippi State
+2000,25,Iowa State
+2001,1,Miami (FL)
+2001,2,Oregon
+2001,3,Florida
+2001,4,Tennessee
+2001,5,Texas
+2001,6,Oklahoma
+2001,7,LSU
+2001,8,Nebraska
+2001,9,Colorado
+2001,10,Washington State
+2001,11,Maryland
+2001,12,Illinois
+2001,13,South Carolina
+2001,14,Syracuse
+2001,15,Florida State
+2001,16,Stanford
+2001,17,Louisville
+2001,18,Virginia Tech
+2001,19,Washington
+2001,20,Michigan
+2001,21,Boston College
+2001,22,Georgia
+2001,23,Toledo
+2001,24,Georgia Tech
+2001,25,Brigham Young
+2002,1,Ohio State
+2002,2,Miami (FL)
+2002,3,Georgia
+2002,4,USC
+2002,5,Oklahoma
+2002,6,Texas
+2002,7,Kansas State
+2002,8,Iowa
+2002,9,Michigan
+2002,10,Washington State
+2002,11,Alabama
+2002,12,North Carolina State
+2002,13,Maryland
+2002,14,Auburn
+2002,15,Boise State
+2002,16,Penn State
+2002,17,Notre Dame
+2002,18,Virginia Tech
+2002,19,Pitt
+2002,20,Colorado
+2002,21,Florida State
+2002,22,Virginia
+2002,23,Texas Christian
+2002,24,Marshall
+2002,25,West Virginia
+2003,1,USC
+2003,2,LSU
+2003,3,Oklahoma
+2003,4,Ohio State
+2003,5,Miami (FL)
+2003,6,Michigan
+2003,7,Georgia
+2003,8,Iowa
+2003,9,Washington State
+2003,10,Miami (OH)
+2003,11,Florida State
+2003,12,Texas
+2003,13,Ole Miss
+2003,14,Kansas State
+2003,15,Tennessee
+2003,16,Boise State
+2003,17,Maryland
+2003,18,Purdue
+2003,19,Nebraska
+2003,20,Minnesota
+2003,21,Utah
+2003,22,Clemson
+2003,23,Bowling Green State
+2003,24,Florida
+2003,25,Texas Christian
+2004,1,USC
+2004,2,Auburn
+2004,3,Oklahoma
+2004,4,Utah
+2004,5,Texas
+2004,6,Louisville
+2004,7,Georgia
+2004,8,Iowa
+2004,9,California
+2004,10,Virginia Tech
+2004,11,Miami (FL)
+2004,12,Boise State
+2004,13,Tennessee
+2004,14,Michigan
+2004,15,Florida State
+2004,16,LSU
+2004,17,Wisconsin
+2004,18,Texas Tech
+2004,19,Arizona State
+2004,20,Ohio State
+2004,21,Boston College
+2004,22,Fresno State
+2004,23,Virginia
+2004,24,Navy
+2004,25,Pitt
+2005,1,Texas
+2005,2,USC
+2005,3,Penn State
+2005,4,Ohio State
+2005,5,West Virginia
+2005,6,LSU
+2005,7,Virginia Tech
+2005,8,Alabama
+2005,9,Notre Dame
+2005,10,Georgia
+2005,11,Texas Christian
+2005,12,Florida
+2005,12,Oregon
+2005,14,Auburn
+2005,15,Wisconsin
+2005,16,UCLA
+2005,17,Miami (FL)
+2005,18,Boston College
+2005,19,Louisville
+2005,20,Texas Tech
+2005,21,Clemson
+2005,22,Oklahoma
+2005,23,Florida State
+2005,24,Nebraska
+2005,25,California
+2006,1,Florida
+2006,2,Ohio State
+2006,3,LSU
+2006,4,USC
+2006,5,Boise State
+2006,6,Louisville
+2006,7,Wisconsin
+2006,8,Michigan
+2006,9,Auburn
+2006,10,West Virginia
+2006,11,Oklahoma
+2006,12,Rutgers
+2006,13,Texas
+2006,14,California
+2006,15,Arkansas
+2006,16,Brigham Young
+2006,17,Notre Dame
+2006,18,Wake Forest
+2006,19,Virginia Tech
+2006,20,Boston College
+2006,21,Oregon State
+2006,22,Texas Christian
+2006,23,Georgia
+2006,24,Penn State
+2006,25,Tennessee
+2007,1,LSU
+2007,2,Georgia
+2007,3,USC
+2007,4,Missouri
+2007,5,Ohio State
+2007,6,West Virginia
+2007,7,Kansas
+2007,8,Oklahoma
+2007,9,Virginia Tech
+2007,10,Texas
+2007,10,Boston College
+2007,12,Tennessee
+2007,13,Florida
+2007,14,Brigham Young
+2007,15,Auburn
+2007,16,Arizona State
+2007,17,Cincinnati
+2007,18,Michigan
+2007,19,Hawaii
+2007,20,Illinois
+2007,21,Clemson
+2007,22,Texas Tech
+2007,23,Oregon
+2007,24,Wisconsin
+2007,25,Oregon State
+2008,1,Florida
+2008,2,Utah
+2008,3,USC
+2008,4,Texas
+2008,5,Oklahoma
+2008,6,Alabama
+2008,7,Texas Christian
+2008,8,Penn State
+2008,9,Ohio State
+2008,10,Oregon
+2008,11,Boise State
+2008,12,Texas Tech
+2008,13,Georgia
+2008,14,Ole Miss
+2008,15,Virginia Tech
+2008,16,Oklahoma State
+2008,17,Cincinnati
+2008,18,Oregon State
+2008,19,Missouri
+2008,20,Iowa
+2008,21,Florida State
+2008,22,Georgia Tech
+2008,23,West Virginia
+2008,24,Michigan State
+2008,25,Brigham Young
+2009,1,Alabama
+2009,2,Texas
+2009,3,Florida
+2009,4,Boise State
+2009,5,Ohio State
+2009,6,Texas Christian
+2009,7,Iowa
+2009,8,Cincinnati
+2009,9,Penn State
+2009,10,Virginia Tech
+2009,11,Oregon
+2009,12,Brigham Young
+2009,13,Georgia Tech
+2009,14,Nebraska
+2009,15,Pitt
+2009,16,Wisconsin
+2009,17,LSU
+2009,18,Utah
+2009,19,Miami (FL)
+2009,20,Ole Miss
+2009,21,Texas Tech
+2009,22,USC
+2009,23,Central Michigan
+2009,24,Clemson
+2009,25,West Virginia
+2010,1,Auburn (14-0)
+2010,2,Texas Christian (13-0)
+2010,3,Oregon (12-1)
+2010,4,Stanford (12-1)
+2010,5,Ohio State (12-1)
+2010,6,Oklahoma (12-2)
+2010,7,Wisconsin (11-2)
+2010,8,LSU (11-2)
+2010,9,Boise State (12-1)
+2010,10,Alabama (10-3)
+2010,11,Nevada (13-1)
+2010,12,Arkansas (10-3)
+2010,13,Oklahoma State (11-2)
+2010,14,Michigan State (11-2)
+2010,15,Mississippi State (9-4)
+2010,16,Virginia Tech (11-3)
+2010,17,Florida State (10-4)
+2010,18,Missouri (10-3)
+2010,19,Texas A&M (9-4)
+2010,20,Nebraska (10-4)
+2010,21,UCF (11-3)
+2010,22,South Carolina (9-5)
+2010,23,Maryland (9-4)
+2010,24,Tulsa (10-3)
+2010,25,North Carolina State (9-4)
+2011,1,Alabama (12-1)
+2011,2,LSU (13-1)
+2011,3,Oklahoma State (12-1)
+2011,4,Oregon (12-2)
+2011,5,Arkansas (11-2)
+2011,6,USC (10-2)
+2011,7,Stanford (11-2)
+2011,8,Boise State (12-1)
+2011,9,South Carolina (11-2)
+2011,10,Wisconsin (11-3)
+2011,11,Michigan State (11-3)
+2011,12,Michigan (11-2)
+2011,13,Baylor (10-3)
+2011,14,Texas Christian (11-2)
+2011,15,Kansas State (10-3)
+2011,16,Oklahoma (10-3)
+2011,17,West Virginia (10-3)
+2011,18,Houston (13-1)
+2011,19,Georgia (10-4)
+2011,20,Southern Mississippi (12-2)
+2011,21,Virginia Tech (11-3)
+2011,22,Clemson (10-4)
+2011,23,Florida State (9-4)
+2011,24,Nebraska (9-4)
+2011,25,Cincinnati (10-3)
+2012,1,Alabama (13-1)
+2012,2,Oregon (12-1)
+2012,3,Ohio State (12-0)
+2012,4,Notre Dame (12-1)
+2012,5,Georgia (12-2)
+2012,5,Texas A&M (11-2)
+2012,7,Stanford (12-2)
+2012,8,South Carolina (11-2)
+2012,9,Florida (11-2)
+2012,10,Florida State (12-2)
+2012,11,Clemson (11-2)
+2012,12,Kansas State (11-2)
+2012,13,Louisville (11-2)
+2012,14,LSU (10-3)
+2012,15,Oklahoma (10-3)
+2012,16,Utah State (11-2)
+2012,17,Northwestern (10-3)
+2012,18,Boise State (11-2)
+2012,19,Texas (9-4)
+2012,20,Oregon State (9-4)
+2012,21,San Jose State (11-2)
+2012,22,Northern Illinois (12-2)
+2012,23,Vanderbilt (9-4)
+2012,24,Michigan (8-5)
+2012,25,Nebraska (10-4)
+2013,1,Florida State (14-0)
+2013,2,Auburn (12-2)
+2013,3,Michigan State (13-1)
+2013,4,South Carolina (11-2)
+2013,5,Missouri (12-2)
+2013,6,Oklahoma (11-2)
+2013,7,Alabama (11-2)
+2013,8,Clemson (11-2)
+2013,9,Oregon (11-2)
+2013,10,UCF (12-1)
+2013,11,Stanford (11-3)
+2013,12,Ohio State (12-2)
+2013,13,Baylor (11-2)
+2013,14,LSU (10-3)
+2013,15,Louisville (12-1)
+2013,16,UCLA (10-3)
+2013,17,Oklahoma State (10-3)
+2013,18,Texas A&M (9-4)
+2013,19,USC (10-4)
+2013,20,Notre Dame (9-4)
+2013,21,Arizona State (10-4)
+2013,22,Wisconsin (9-4)
+2013,23,Duke (10-4)
+2013,24,Vanderbilt (9-4)
+2013,25,Washington (9-4)
+2014,1,Ohio State (14-1)
+2014,2,Oregon (13-2)
+2014,3,Texas Christian (12-1)
+2014,4,Alabama (12-2)
+2014,5,Florida State (13-1)
+2014,5,Michigan State (11-2)
+2014,7,Baylor (11-2)
+2014,8,Georgia Tech (11-3)
+2014,9,Georgia (10-3)
+2014,10,UCLA (10-3)
+2014,11,Mississippi State (10-3)
+2014,12,Arizona State (10-3)
+2014,13,Wisconsin (11-3)
+2014,14,Missouri (11-3)
+2014,15,Clemson (10-3)
+2014,16,Boise State (12-2)
+2014,17,Ole Miss (9-4)
+2014,18,Kansas State (9-4)
+2014,19,Arizona (10-4)
+2014,20,USC (9-4)
+2014,21,Utah (9-4)
+2014,22,Auburn (8-5)
+2014,23,Marshall (13-1)
+2014,24,Louisville (9-4)
+2014,25,Memphis (10-3)
+2015,1,Alabama (14-1)
+2015,2,Clemson (14-1)
+2015,3,Stanford (12-2)
+2015,4,Ohio State (12-1)
+2015,5,Oklahoma (11-2)
+2015,6,Michigan State (12-2)
+2015,7,Texas Christian (11-2)
+2015,8,Houston (13-1)
+2015,9,Iowa (12-2)
+2015,10,Ole Miss (10-3)
+2015,11,Notre Dame (10-3)
+2015,12,Michigan (10-3)
+2015,13,Baylor (10-3)
+2015,14,Florida State (10-3)
+2015,15,North Carolina (11-3)
+2015,16,LSU (9-3)
+2015,17,Utah (10-3)
+2015,18,Navy (11-2)
+2015,19,Oregon (9-4)
+2015,20,Oklahoma State (10-3)
+2015,21,Wisconsin (10-3)
+2015,22,Tennessee (9-4)
+2015,23,Northwestern (10-3)
+2015,24,Western Kentucky (12-2)
+2015,25,Florida (10-4)
+2016,1,Clemson (14-1)
+2016,2,Alabama (14-1)
+2016,3,USC (10-3)
+2016,4,Washington (12-2)
+2016,5,Oklahoma (11-2)
+2016,6,Ohio State (11-2)
+2016,7,Penn State (11-3)
+2016,8,Florida State (10-3)
+2016,9,Wisconsin (11-3)
+2016,10,Michigan (10-3)
+2016,11,Oklahoma State (10-3)
+2016,12,Stanford (10-3)
+2016,13,LSU (8-4)
+2016,14,Florida (9-4)
+2016,15,Western Michigan (13-1)
+2016,16,Virginia Tech (10-4)
+2016,17,Colorado (10-4)
+2016,18,West Virginia (10-3)
+2016,19,South Florida (11-2)
+2016,20,Miami (FL) (9-4)
+2016,21,Louisville (9-4)
+2016,22,Tennessee (9-4)
+2016,23,Utah (9-4)
+2016,24,Auburn (8-5)
+2016,25,San Diego State (11-3)
+2017,1,Alabama (13-1)
+2017,2,Georgia (13-2)
+2017,3,Oklahoma (12-2)
+2017,4,Clemson (12-2)
+2017,5,Ohio State (12-2)
+2017,6,UCF (13-0)
+2017,7,Wisconsin (13-1)
+2017,8,Penn State (11-2)
+2017,9,Texas Christian (11-3)
+2017,10,Auburn (10-4)
+2017,11,Notre Dame (10-3)
+2017,12,USC (11-3)
+2017,13,Miami (FL) (10-3)
+2017,14,Oklahoma State (10-3)
+2017,15,Michigan State (10-3)
+2017,16,Washington (10-3)
+2017,17,Northwestern (10-3)
+2017,18,LSU (9-4)
+2017,19,Mississippi State (9-4)
+2017,20,Stanford (9-5)
+2017,21,South Florida (10-2)
+2017,22,Boise State (11-3)
+2017,23,North Carolina State (9-4)
+2017,24,Virginia Tech (9-4)
+2017,25,Memphis (10-3)
