@@ -5,8 +5,13 @@ class Player:
         self.name = name
         self.cmp = cmp
         self.att = att
-        self.pct = self.cmp / self.att
         self.yds = yds
-        self.yatt = self.yds / self.att
         self.tds = tds
         self.interceptions = interceptions
+        try:
+            self.pct = self.cmp / self.att
+            self.yatt = self.yds / self.att
+        except ZeroDivisionError:
+            self.pct = 0
+            self.yatt = 0
+

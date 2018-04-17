@@ -47,15 +47,17 @@ names(combine)[names(combine) == "Vert.Leap..in."] <- "Vertical_Leap"
 names(combine)[names(combine) == "Broad.Jump..in."] <- "Broad_Jump"
 names(combine)[names(combine) == "X3Cone"] <- "Three_Cone"
 names(combine)[names(combine) == "X60Yd.Shuttle"] <- "Sixty_Shuttle"
+names(combine)[names(combine) == "College"] <- "School"
+
 
 # Drop POS (Position) column because they are all QBs
 combine$POS <- NULL
 
 # Drop Year because it is basically useless
-combine$Year <- NULL
+#combine$Year <- NULL
 
 # Drop College because Data_College_QB_Stats contains the conference, which should be better for the model
-combine$College <- NULL
+#combine$College <- NULL
 
 # Drop Sixty_Shuttle, Bench Press, and Wonderlic because very few participated
 combine$Sixty_Shuttle <- NULL
@@ -75,11 +77,35 @@ full.data <- merge(combine, qbr, by='Name')
 
 stats <- read.csv('Data_College_QB_Stats.csv')
 
-# No duplicates in 
+# Get rid of School because it's unneccessary for the model
+#stats$School <- NULL
+
+# Clean up floating point numbers
+stats$Completion_Percentage <- round(stats$Completion_Percentage, 1)
+stats$Y.A <- round(stats$Y.A, 1)
+stats$College_QBR <- round(stats$College_QBR, 1)
+stats$Rushing_Avg <- round(stats$Rushing_Avg, 1)
+
+# Check for duplicates in the Name portion of the combine data
+number_of_rows <- dim(stats)[1]
+number_of_unique_names <- length(unique(stats$Name))
+number_of_unique_players <- dim(stats[ ! duplicated( stats[ c("Name" , "School") ] ) , ])[1]
+
+if(number_of_rows == number_of_unique_players){
+  print("No duplicates in stats data")
+} else {
+  print("There ARE duplicates in stats data")
+}
+
+# No duplicates in Data_College_QB_Stats
 
 
+# Merge by name
+second.full.data <- merge(full.data, stats, by=c('Name', 'School'))
 
+## Losing a lot of people after this step, figure it out
 
+# Merge Poll
 
 
 

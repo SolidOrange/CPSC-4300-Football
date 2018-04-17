@@ -23,7 +23,7 @@ unique_players = set()
 player_objects = []
 
 # For each year, get the QBR
-for j in range(1994, 2018):
+for j in range(1987, 2018):
     print("Year: " + str(j))
     page_url = 'https://www.footballdb.com/stats/stats.html?lg=NFL&yr=' + str(
         j) + '&type=reg&mode=P&conf=&limit=100'

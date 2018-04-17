@@ -23,12 +23,16 @@ class PlayerPro(Player):
     # Algorithm can be seen here:
     #   https://en.wikipedia.org/wiki/Passer_rating#NCAA_formula
     def calculate_qbr(self):
-        completion_percentage = (self.pct - 30) * .05
+        completion_percentage = (self.pct - .3) * 5
         yards_per_attempt = (self.yatt - 3) * .25
-        td_percentage = self.tds / self.att * .2
-        int_percentage = 2.375 - self.interceptions / self.att * .25
+        try:
+            td_percentage = self.tds / self.att * 20
+            int_percentage = 2.375 - (self.interceptions / self.att * 25)
+        except ZeroDivisionError:
+            td_percentage = 0
+            int_percentage = 0
 
-        total = (completion_percentage + yards_per_attempt + td_percentage +
-                 int_percentage) / 6 * 100
+        total = round((completion_percentage + yards_per_attempt +
+                      td_percentage + int_percentage) / 6 * 100, 1)
 
         return total
