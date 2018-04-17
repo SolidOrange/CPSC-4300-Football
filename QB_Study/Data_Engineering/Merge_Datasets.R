@@ -64,15 +64,18 @@ combine$Wonderlic <- NULL
 
 # Clean up QBR
 names(qbr)[names(qbr) == "QBR"] <- "NFL_QBR"
+qbr$NFL_QBR <- round(qbr$NFL_QBR, digits=1)
 
 # Merge databases by the 'Name' Attribute
-
 full.data <- merge(combine, qbr, by='Name')
 
 # Data_Combine and Data_NFL_QBR are merged.
 
 # Next, merge Data_College_QB_Stats with full.data
 
+stats <- read.csv('Data_College_QB_Stats.csv')
+
+# No duplicates in 
 
 
 
