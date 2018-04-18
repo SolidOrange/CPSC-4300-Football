@@ -21,75 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Scrape_College_Passing_Stats.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Scrape_College_Passing_Stats.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-              <folding>
-                <element signature="e#170#180#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerCollege.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Player_Classes/PlayerCollege.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data_New_NFL_QBR.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scraped_Data/Data_New_NFL_QBR.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.115385">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Scrape_NFL_QBR.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Scrape_NFL_QBR.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-              <folding>
-                <element signature="e#222#232#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Player_Classes/Player.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerPro.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Player_Classes/PlayerPro.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data_New_NFL_QBR_Script.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Data_New_NFL_QBR_Script.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+              <caret line="68" column="48" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
               <folding>
                 <element signature="e#283#293#0" expanded="true" />
               </folding>
@@ -97,31 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data_Combine.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraped_Data/Data_Combine.csv">
+      <file leaf-file-name="Scrape_Polls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Scrape_Polls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data_NFL_QBR.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraped_Data/Data_NFL_QBR.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data_Polls.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scraped_Data/Data_Polls.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="2.0091324">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,6 +79,7 @@
         <option value="$PROJECT_DIR$/Scraping_Scripts/Player_Classes/Player.py" />
         <option value="$PROJECT_DIR$/Scraping_Scripts/Player_Classes/PlayerPro.py" />
         <option value="$PROJECT_DIR$/Scraping_Scripts/Data_New_NFL_QBR_Script.py" />
+        <option value="$PROJECT_DIR$/Scraping_Scripts/Scrape_Polls.py" />
       </list>
     </option>
   </component>
@@ -304,33 +221,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Junk" />
-      <recent name="$PROJECT_DIR$/Scraping_Scripts/Player_Classes" />
-      <recent name="$PROJECT_DIR$/Scraped_Data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Junk" />
+      <recent name="$PROJECT_DIR$/Scraped_Data" />
+      <recent name="$PROJECT_DIR$/Scraping_Scripts/Player_Classes" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Data_New_NFL_QBR_Script">
-    <configuration default="false" name="new_recruiting" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CombineStudy" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_recruiting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Scrape_Polls">
     <configuration default="false" name="Scrape_College_Passing_Stats" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -395,6 +295,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CombineStudy" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraping_Scripts/Data_New_NFL_QBR_Script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scrape_Polls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scraping_Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CombineStudy" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scraping_Scripts/Scrape_Polls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -522,19 +439,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.new_recruiting" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Scrape_College_Passing_Stats" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Scrape_NFL_QBR" />
-      <item index="3" class="java.lang.String" itemvalue="Python.QBR_Player_Class" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Data_New_NFL_QBR_Script" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Scrape_College_Passing_Stats" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Scrape_NFL_QBR" />
+      <item index="2" class="java.lang.String" itemvalue="Python.QBR_Player_Class" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Data_New_NFL_QBR_Script" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Scrape_Polls" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Data_New_NFL_QBR_Script" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Scrape_NFL_QBR" />
-        <item index="2" class="java.lang.String" itemvalue="Python.QBR_Player_Class" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Scrape_College_Passing_Stats" />
-        <item index="4" class="java.lang.String" itemvalue="Python.new_recruiting" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Scrape_Polls" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Data_New_NFL_QBR_Script" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Scrape_NFL_QBR" />
+        <item index="3" class="java.lang.String" itemvalue="Python.QBR_Player_Class" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Scrape_College_Passing_Stats" />
       </list>
     </recent_temporary>
   </component>
@@ -553,14 +470,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16953126" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16953126" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27224436" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34528553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -637,7 +554,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
-            <element signature="e#222#232#0" expanded="true" />
+            <element signature="e#283#293#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,16 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Scrape_College_Passing_Stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="e#170#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scraped_Data/Data_Combine.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -750,29 +657,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Player_Classes/PlayerCollege.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Player_Classes/Player.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Scrape_NFL_QBR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding>
-            <element signature="e#222#232#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,20 +673,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Data_New_NFL_QBR_Script.py">
+    <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Player_Classes/PlayerCollege.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20192307">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Scrape_College_Passing_Stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6153846">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="e#170#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Scrape_NFL_QBR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+          <caret line="68" column="48" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
           <folding>
             <element signature="e#283#293#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scraped_Data/Data_New_NFL_QBR.csv">
+    <entry file="file://$PROJECT_DIR$/Junk/polls.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.115385">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.172043">
+          <caret line="525" column="0" selection-start-line="525" selection-start-column="0" selection-end-line="525" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scraping_Scripts/Scrape_Polls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0091324">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>

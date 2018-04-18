@@ -12,7 +12,7 @@ import csv
 import time
 
 # Write the header of the csv file
-csv_file = open('polls.csv', 'w')
+csv_file = open('../Scraped_Data/Data_Polls.csv', 'w')
 writer = csv.writer(csv_file)
 writer.writerow(['Year', 'Rank', 'School'])
 
@@ -41,6 +41,16 @@ for year in range(1997, 2018):
                 attributes = row.find_all('td')
                 rank = attributes[1].get_text()
                 team = attributes[2].get_text()
+                # Clean off parentheses
+                parentheses_index = team.find('(')
+
+                if(parentheses_index > 0):
+                    if(team[parentheses_index+1].isalpha()):
+                        parentheses_index = team.find(")")
+                        team = team[:parentheses_index+1]
+                    else:
+                        team = team[:parentheses_index]
+
                 # Write to CSV
                 writer.writerow([year, rank, team])
         except:

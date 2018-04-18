@@ -66,10 +66,19 @@ combine$Wonderlic <- NULL
 
 # Clean up QBR
 names(qbr)[names(qbr) == "QBR"] <- "NFL_QBR"
-qbr$NFL_QBR <- round(qbr$NFL_QBR, digits=1)
 
 # Merge databases by the 'Name' Attribute
 full.data <- merge(combine, qbr, by='Name')
+
+# Check for duplicates in the Name portion of full.data
+number_of_rows <- dim(full.data)[1]
+number_of_unique_names <- length(unique(full.data$Name))
+
+if(number_of_rows == number_of_unique_names){
+  print("No duplicates in full.data")
+} else {
+  print("There ARE duplicates in full.data")
+}
 
 # Data_Combine and Data_NFL_QBR are merged.
 
@@ -81,12 +90,12 @@ stats <- read.csv('Data_College_QB_Stats.csv')
 #stats$School <- NULL
 
 # Clean up floating point numbers
-stats$Completion_Percentage <- round(stats$Completion_Percentage, 1)
+stats$Completion_Percentage <- round(stats$Completion_Percentage, 2)
 stats$Y.A <- round(stats$Y.A, 1)
 stats$College_QBR <- round(stats$College_QBR, 1)
 stats$Rushing_Avg <- round(stats$Rushing_Avg, 1)
 
-# Check for duplicates in the Name portion of the combine data
+# Check for duplicates in the Name portion of the stats data
 number_of_rows <- dim(stats)[1]
 number_of_unique_names <- length(unique(stats$Name))
 number_of_unique_players <- dim(stats[ ! duplicated( stats[ c("Name" , "School") ] ) , ])[1]
@@ -99,13 +108,28 @@ if(number_of_rows == number_of_unique_players){
 
 # No duplicates in Data_College_QB_Stats
 
+# Do a left outer merge by name
+full.data <- merge(full.data, stats, by=c('Name', 'School'), all.x=TRUE)
 
-# Merge by name
-second.full.data <- merge(full.data, stats, by=c('Name', 'School'))
+# Check for duplicates in the Name portion of the full.data
+number_of_rows <- dim(full.data)[1]
+number_of_unique_names <- length(unique(full.data$Name))
+number_of_unique_players <- dim(full.data[ ! duplicated( full.data[ c("Name" , "School") ] ) , ])[1]
 
-## Losing a lot of people after this step, figure it out
+if(number_of_rows == number_of_unique_players){
+  print("No duplicates in stats data")
+} else {
+  print("There ARE duplicates in stats data")
+}
 
-# Merge Poll
+# No duplicates in full.data
+
+
+
+
+
+
+
 
 
 
