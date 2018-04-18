@@ -28,7 +28,7 @@ unique_players = set()
 player_objects = set()
 
 # For each year, do the following
-for j in range(1997, 2018):
+for j in range(1987, 2018):
     # For each round, do the following
     print("Year: " + str(j))
     # Specify the URL

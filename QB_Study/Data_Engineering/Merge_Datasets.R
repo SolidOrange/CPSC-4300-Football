@@ -124,10 +124,23 @@ if(number_of_rows == number_of_unique_players){
 
 # No duplicates in full.data
 
+# Add College Team Success Info
+# Poll Data is what their team was ranked in the final week of their Senior year of College
 
+polls <- read.csv('../Scraped_Data/Data_Polls.csv')
 
+# Decrement year by 1 to match up with the polls for merging
+full.data$Year <- full.data$Year - 1
 
+# Merge sets by year and school
+full.data <- merge(full.data, polls, by=c("Year", "School"),)
 
+# Feature Engineering
+
+# Using a binary variable to represent playing a power five conference and also can now remove school
+power.five = c("ACC", "Big 10", "SEC", "Big 12","Pac-10","Pac-12")
+
+full.data$Power_Five <- full.data$Conference %in% power.five
 
 
 
