@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 from Scraping_Scripts.Player_Classes.PlayerPro import PlayerPro
 
 # Write header of csv file
-csv_file = open('../Scraped_Data/Data_New_NFL_QBR.csv', 'w')
+csv_file = open('../Scraped_Data/Data_NFL_QBR.csv', 'w')
 writer = csv.writer(csv_file)
 writer.writerow(['Name', 'QBR'])
 
