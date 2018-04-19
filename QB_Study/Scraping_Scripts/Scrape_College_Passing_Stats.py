@@ -28,7 +28,7 @@ unique_players = set()
 player_objects = set()
 
 # For each year, do the following
-for j in range(1987, 2018):
+for j in range(1986, 2018):
     # For each round, do the following
     print("Year: " + str(j))
     # Specify the URL
@@ -95,7 +95,6 @@ for j in range(1987, 2018):
 
         time.sleep(.25)
 
-print("length of player_objects " + str(len(player_objects)))
 for player in player_objects:
     print(player.name + " " + player.school)
     writer.writerow(
