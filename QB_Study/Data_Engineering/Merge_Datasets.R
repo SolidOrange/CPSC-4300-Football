@@ -109,7 +109,7 @@ if(number_of_rows == number_of_unique_players){
 # No duplicates in Data_College_QB_Stats
 
 # Do a left outer merge by name
-full.data <- merge(full.data, stats, by=c('Name', 'School'), all.x=TRUE)
+full.data <- merge(full.data, stats, by=c('Name', 'School'), all.x =TRUE)
 
 # Check for duplicates in the Name portion of the full.data
 number_of_rows <- dim(full.data)[1]
@@ -133,7 +133,7 @@ polls <- read.csv('../Scraped_Data/Data_Polls.csv')
 full.data$Year <- full.data$Year - 1
 
 # Merge sets by year and school
-full.data <- merge(full.data, polls, by=c("Year", "School"),)
+full.data <- merge(full.data, polls, by=c("Year", "School"), all=TRUE)
 
 # Feature Engineering
 
@@ -142,8 +142,9 @@ power.five = c("ACC", "Big 10", "SEC", "Big 12","Pac-10","Pac-12")
 
 full.data$Power_Five <- full.data$Conference %in% power.five
 
+write.csv(full.data, '../EDA/Dataset.csv')
 
+response.data <- subset(full.data, !is.na(full.data$NFL_QBR))
 
-
-
+write.csv(response.data, '../EDA/Response_Dataset.csv')
 
