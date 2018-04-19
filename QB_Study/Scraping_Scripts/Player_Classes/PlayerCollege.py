@@ -10,7 +10,7 @@ class PlayerCollege(Player):
         self.games = games
         self.ratt = ratt
         self.ryds = ryds
-        self.ravg = self.yds / self.ratt
+        self.ravg = self.ryds / self.ratt
         self.rtd = rtd
         self.qbr = self.calculate_qbr()
 

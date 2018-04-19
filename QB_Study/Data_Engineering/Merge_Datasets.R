@@ -135,7 +135,8 @@ full.data$Power_Five <- full.data$Conference %in% power.five
 # Create a dataset where every row comtains the response (NFL_QBR)
 response.data <- subset(full.data, !is.na(full.data$NFL_QBR))
 
-
+# Remove features with lots of NAs
+response.data$Three_Cone <- NULL
 
 # Write main dataframes to csvs
 write.csv(response.data, '../EDA/Response_Dataset.csv')

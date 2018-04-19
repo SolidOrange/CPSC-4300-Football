@@ -7,8 +7,12 @@
 
 # Import libraries
 import urllib2
+import sys
 from bs4 import BeautifulSoup
 import csv
+
+if sys.version_info[0] >= 3:
+    raise ("Must be using Python 2")
 
 # Specify the URLs
 page_url = 'http://nflcombineresults.com/nflcombinedata_expanded.php?year=all&pos=QB&college='
