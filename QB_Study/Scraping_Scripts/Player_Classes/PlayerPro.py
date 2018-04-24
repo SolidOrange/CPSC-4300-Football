@@ -35,4 +35,7 @@ class PlayerPro(Player):
         total = round((completion_percentage + yards_per_attempt +
                       td_percentage + int_percentage) / 6 * 100, 1)
 
+        if total < 0:
+            total = 0
+
         return total

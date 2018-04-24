@@ -37,4 +37,6 @@ class PlayerCollege(Player):
     def calculate_qbr(self):
         total = ((8.4 * self.yds) + (330 * self.tds) + (100 * self.cmp) - (
             200 * self.interceptions)) / self.att
+        if total < 0:
+            total = 0
         return total
