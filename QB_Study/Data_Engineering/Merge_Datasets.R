@@ -4,6 +4,7 @@
 
 # Set directory for getting the csv files
 rm(list=ls())
+setwd("~/Developer/GitHub/CPSS-4300-Football/QB_Study/Data_Engineering")
 setwd('../Scraped_Data')
 
 # Import datasets
@@ -118,7 +119,14 @@ polls <- read.csv('../Scraped_Data/Data_Polls.csv')
 full.data$Year <- full.data$Year - 1
 
 # Merge sets by year and school
-full.data <- merge(full.data, polls, by=c("Year", "School"), all=TRUE)
+full.data <- merge(full.data, polls, by=c("Year", "School"), all.x=TRUE)
+
+# Quantify Rank Feature
+#if(full.data$Rank == NA)
+full.data$Rank[is.na(full.data$Rank)] <- 0
+full.data$Rank[full.data$Rank <= 10] <- 2
+full.data$Rank[11 <= full.data$Rank & full.data$Rank<= 25] <- 1
+full.data$Rank <- factor(full.data$Rank)
 
 # Get rid of School because it's unneccessary for the model
 full.data$School <- NULL
@@ -135,8 +143,22 @@ full.data$Power_Five <- full.data$Conference %in% power.five
 # Create a dataset where every row comtains the response (NFL_QBR)
 response.data <- subset(full.data, !is.na(full.data$NFL_QBR))
 
+colSums(is.na(response.data))
+
+
 # Remove features with lots of NAs
 response.data$Three_Cone <- NULL
+response.data$Shuttle_Run <- NULL
+response.data$Vertical_Leap <- NULL
+response.data$Broad_Jump <- NULL
+
+
+
+old.resposne.data <- response.data
+# Repair features with lots of NAs by using an average value
+# for(i in 1:ncol(response.data)){
+#   response.data[is.na(response.data[,i]), i] <- mean(response.data[,i], na.rm = TRUE)
+# }
 
 # Write main dataframes to csvs
 write.csv(response.data, '../EDA/Response_Dataset.csv')

@@ -17,7 +17,7 @@ writer = csv.writer(csv_file)
 writer.writerow(['Year', 'Rank', 'School'])
 
 
-for year in range(1997, 2018):
+for year in range(1986, 2018):
     # Set URL
     loop_year = str(year)
     page_url = "https://www.sports-reference.com/cfb/years/" + loop_year \
