@@ -49,8 +49,6 @@ combine$Forty_Yard[combine$Forty_Yard %in% 9.99] <- NA
 combine$Shuttle[combine$Shuttle %in% 9.99] <- NA
 combine$Three_Cone[combine$Three_Cone %in% 9.99] <- NA
 
-
-
 # Drop POS (Position) column because they are all QBs
 combine$POS <- NULL
 
@@ -122,7 +120,6 @@ full.data$Year <- full.data$Year - 1
 full.data <- merge(full.data, polls, by=c("Year", "School"), all.x=TRUE)
 
 # Quantify Rank Feature
-#if(full.data$Rank == NA)
 full.data$Rank[is.na(full.data$Rank)] <- 0
 full.data$Rank[full.data$Rank <= 10] <- 2
 full.data$Rank[11 <= full.data$Rank & full.data$Rank<= 25] <- 1
@@ -137,7 +134,6 @@ full.data <- full.data[!rowSums(is.na(full.data)) > 10, ]
 
 # Using a binary variable to represent playing a power five conference and also can now remove school
 power.five = c("ACC", "Big 10", "SEC", "Big 12","Pac-10","Pac-12")
-
 full.data$Power_Five <- full.data$Conference %in% power.five
 
 # Create a dataset where every row comtains the response (NFL_QBR)
@@ -153,12 +149,10 @@ response.data$Vertical_Leap <- NULL
 response.data$Broad_Jump <- NULL
 
 
-
-old.resposne.data <- response.data
-# Repair features with lots of NAs by using an average value
-# for(i in 1:ncol(response.data)){
-#   response.data[is.na(response.data[,i]), i] <- mean(response.data[,i], na.rm = TRUE)
-# }
+#Repair features with lots of NAs by using an average value
+for(i in 1:ncol(response.data)){
+  response.data[is.na(response.data[,i]), i] <- mean(response.data[,i], na.rm = TRUE)
+}
 
 # Write main dataframes to csvs
 write.csv(response.data, '../EDA/Response_Dataset.csv')
