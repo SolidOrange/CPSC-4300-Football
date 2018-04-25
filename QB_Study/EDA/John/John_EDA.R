@@ -48,18 +48,6 @@ plot(data$Forty_Yard, data$NFL_QBR)
 abline(lm(data$NFL_QBR ~ data$Forty_Yard), col = "blue")
 cor(data$Forty_Yard, data$NFL_QBR)
 
-plot(data$Vertical_Leap, data$NFL_QBR)
-abline(lm(data$NFL_QBR ~ data$Vertical_Leap), col = "blue")
-cor(data$Vertical_Leap, data$NFL_QBR)
-
-plot(data$Broad_Jump, data$NFL_QBR)
-abline(lm(data$NFL_QBR ~ data$Broad_Jump), col = "blue")
-cor(data$Broad_Jump, data$NFL_QBR)
-
-plot(data$Shuttle, data$NFL_QBR)
-abline(lm(data$NFL_QBR ~ data$Shuttle), col = "blue")
-cor(data$Shuttle, data$NFL_QBR)
-
 plot(data$Games, data$NFL_QBR)
 abline(lm(data$NFL_QBR ~ data$Games), col = "blue")
 cor(data$Games, data$NFL_QBR)
